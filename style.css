@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+.container{
+    background-color: #ececee;
+}
 .logo-1 {
     width: 200px;
     height: 50px;
@@ -107,30 +109,107 @@ ul li {
 
 .col-3 {
     position: relative;
+    border-radius: 2px;
 }
 
 .img {
-    width: 80px;
-    height: 70px;
+    position: relative;
+    width: 40px;
+    height: 40px;
     display: block;
+margin-left: 300px;
 }
-
-.images {
+.imga {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+margin-left: 100px;
+}
+.image1 {
     position: absolute;
-    top: 25px;
-    left: 37px;
+    top: 12px;
+    left: 120px;
     width: 30px;
-    height: 25px;
+    height: 14px;
+    margin-left: 200px;
+}
+.images3{
+    position: absolute;
+    top: 255px;
+    left: 120px;
+    width: 30px;
+    height: 14px;
+    margin-left: 200px;
+
+}
+.image2 {
+    position: absolute;
+    top: 12px;
+    left: 120px;
+    width: 30px;
+    height: 14px;
+    margin-right: 200px;
+}
+.images4{
+    position: absolute;
+    top: 255px;
+    left: 120px;
+    width: 30px;
+    height: 14px;
+    margin-right: 200px;
+
 }
 
 .heading-4 {
-    text-align: right;
-    width: 280px;
-    height: 51px;
+
+margin-left: 180px;   
+ width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .para-4 {
-    width: 290px;
-    height: 90px;
-    text-align: right;
+    text-align: left;
+   margin-left: 100px;   
+ width: 280px;
+    height: 51px;
+    font-size: 17px;
+    gap: 5px;
+}
+.head4{
+    margin-left: 100px;
+    
+}
+.heading-04{
+    margin-right: 100px;   
+ width: 270px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-6{
+display: flex;    align-items: center; 
+gap: 20px;
+}
+.heading2{
+    /* margin: 311px;
+    height: 50px;
+    font-size: 46px; */
+    color: #75BF7A;
+
+}
+.flexible{
+width: 100px;
+height: 90px;
+}
+.heading-5{
+font-size: 33px;
+width: 300px;
+height: 65px;
+}
+.paragraph{
+    color:#9E9DA2;
 }
