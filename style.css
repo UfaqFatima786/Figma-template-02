@@ -201,15 +201,153 @@ gap: 20px;
     color: #75BF7A;
 
 }
+.flexible-d{
+    margin-right: 100px;
+}
+.earnings-div{
+margin-left: 120px;
+}.support-row{
+    margin-right: 300px;
+}
 .flexible{
 width: 100px;
 height: 90px;
 }
 .heading-5{
 font-size: 33px;
-width: 300px;
-height: 65px;
+width: 350px;
+height: 60px;
 }
 .paragraph{
     color:#9E9DA2;
+    font-size: 18px;
+}
+.benefit-1{
+
+margin-left: 100px;
+width: auto;
+height: 200px;
+}
+.frameimg{
+    width: 200px;
+    height: 170px;
+}
+.mobile-div{
+position: relative;
+}
+.mobile-div .mobile {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    height: 600px;
+    width: 50%;          
+    z-index: -1;        
+opacity: 1;}
+.earnings-div {
+    position: relative;
+    z-index: 2;          
+    border-radius: 20px;
+}
+.support-row {
+    position: relative;
+    z-index: 2;         
+    border-radius: 20px;
+}
+
+
+
+.footer-wrapper {
+    background:#263238;
+    padding: 60px 40px; 
+}
+
+.footer-container {
+    max-width: 1200px;  
+    margin: 0 auto;    
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    gap: 80px;
+}
+
+.footer-left {
+    width: 25%;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    color: #ADB1B6;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-social i {
+    background:#263238;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.footer-link {
+    color: #A6A9AD;
+    font-size: 15px;
+    cursor: pointer;
+    color: #F5F7FA;
+    text-decoration: none;
+}
+.footer-subscribe {
+    width: 25%;
+}
+
+.subscribe-box {
+    background:#263238;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.subscribe-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:#D9DBE1;
+}
+
+.subscribe-box i {
+    color:#FFFFFF;
+    font-size: 18px;
+}
+img {
+    transition: transform 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.3); 
 }
