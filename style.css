@@ -37,6 +37,7 @@ ul li {
     width: 559px;
     color: #000000;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .para-1 {
@@ -244,10 +245,11 @@ ul li {
     height: 170px;
 }
 
-.mobile-div{
-position: relative;
-background:transparent;
+.mobile-div {
+    position: relative;
+    background: transparent;
 }
+
 .mobile-div .mobile {
     position: absolute;
     top: 100px;
@@ -266,25 +268,112 @@ background:transparent;
 
 .support-div {
     position: relative;
-    z-index: 2;         
-    
+    z-index: 2;
+
 }
-.sup-para{
+
+.sup-para {
     width: 600px;
 }
-.main-footer{
+
+.main-footer {
     margin-top: 250px;
     background-color: #ffffff;
 }
-.foot-img{
+
+.foot-img {
+
     text-align: center;
+    gap: 2px;
 }
-.foot-logo{
+
+.foot-logo {
     width: 200px;
 }
-.last-div span{
-    color:#75BF7A;
+
+.last-div span {
+    color: #75BF7A;
 }
 
 
 
+
+
+@media only screen and (max-width: 1400px) {
+    .middle-row {
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .input-div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-row {
+        order: -1;
+    }
+
+    .input-div {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .row-1 {
+        flex-wrap: wrap;
+        display: flex;
+        height: 250px;
+        width: 320px;
+    }
+
+    .section-hero-1 {
+        flex-wrap: wrap;
+        height: 220px;
+        width: 320px;
+    }
+
+
+
+    .row-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .col-3 {
+        position: relative;
+    }
+
+    .flexible-time {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 400px;
+        height: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navUl a {
+        text-align: center;
+    }
+
+    .navUl button {
+        text-align: center;
+        margin-left: 230px;
+    }
+}
+
+@media only screen and (max-width: 800px) {}
